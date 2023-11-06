@@ -1,0 +1,55 @@
+body
+    {
+    padding: 10px;  
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+
+    }
+
+header
+{
+
+}
+
+h1 
+    {
+    color: rgb(32, 204, 26);
+    font-family: verdana;
+    }
+
+nav a 
+    {
+    text-decoration: none;
+    }
+
+nav li
+    {
+    display: :inline;   
+    }
+
+nav
+    {
+    outline-style: solid; 
+    outline-color: rgb(80, 175, 163);
+    outline-width: 5px;
+
+    }
+
+article
+{
+    background-color: aqua;
+    border: 3px solid crimson; 
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align:justify;
+
+}
+@media screen and (max-width:768px) 
+{
+ article {font-size: 8px;}   
+}
+@media screen and (min-width:1200px) 
+{
+ article {font-size: 8px;}   
+}
+  
